@@ -5,6 +5,7 @@ import com.spring.api.SpringAPI.models.Client;
 import com.spring.api.SpringAPI.repositories.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -23,5 +24,23 @@ public class ClientController {
     @ResponseStatus(HttpStatus.CREATED)
     public Client registerClient(@RequestBody Client client){
         return clientRepository.save(client);
+    }
+
+    @DeleteMapping(path = {"/{clientId}"})
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public ResponseEntity<?> deleteClient(@PathVariable Long clientId){
+        return clientRepository.findById(clientId)
+                .map(record -> {
+                    clientRepository.deleteById(clientId);
+                    return ResponseEntity.ok().build();
+                }).orElse(ResponseEntity.notFound().build());
+    }
+
+    @GetMapping(path = {"/{clientId}"})
+    @ResponseStatus(HttpStatus.OK)
+    public ResponseEntity getClientById(@PathVariable Long clientId) {
+        return clientRepository.findById(clientId)
+                .map(record -> ResponseEntity.ok().body(record))
+                .orElse(ResponseEntity.notFound().build());
     }
 }
