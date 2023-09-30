@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656ce75f-21a2-4263-b912-86238e833142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/spring-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/i.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.spring.api.SpringAPI/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.spring.api.SpringAPI/controllers/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.spring.api.SpringAPI/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.spring.api.SpringAPI/models/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/static" beforeDir="false" />
-    </list>
+    <list default="true" id="656ce75f-21a2-4263-b912-86238e833142" name="Changes" comment="-" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +65,63 @@
       <option name="presentableId" value="Default" />
       <updated>1696035833290</updated>
     </task>
+    <task id="LOCAL-00001" summary="application properties">
+      <option name="closed" value="true" />
+      <created>1696098621505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098621505</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add: equals() and hashCode()">
+      <option name="closed" value="true" />
+      <created>1696098651044</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098651044</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updating readme">
+      <option name="closed" value="true" />
+      <created>1696098665082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098665082</updated>
+    </task>
+    <task id="LOCAL-00004" summary="_">
+      <option name="closed" value="true" />
+      <created>1696098678562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098678562</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: deleteClient">
+      <option name="closed" value="true" />
+      <created>1696098720226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098720226</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test class">
+      <option name="closed" value="true" />
+      <created>1696098746064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098746064</updated>
+    </task>
+    <task id="LOCAL-00007" summary="-">
+      <option name="closed" value="true" />
+      <created>1696098758133</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098758133</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +146,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="application properties" />
+    <MESSAGE value="add: equals() and hashCode()" />
+    <MESSAGE value="updating readme" />
+    <MESSAGE value="_" />
+    <MESSAGE value="fix: deleteClient" />
+    <MESSAGE value="test class" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
