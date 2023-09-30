@@ -33,15 +33,15 @@ public class Client {
     }
 
     public void setId(long id) {
-        Id = id;
+        this.Id = id;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String newName) {
+        this.name = newName;
     }
 
     public String getEmail() {
@@ -63,9 +63,13 @@ public class Client {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Client client)) return false;
-        return Id == client.Id;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Client client = (Client) o;
+
+        return Objects.equals(Id, client.Id);
     }
+
 
     @Override
     public int hashCode() {
